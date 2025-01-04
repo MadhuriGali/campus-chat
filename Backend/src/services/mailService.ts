@@ -5,7 +5,7 @@ const sendEmail=async(options:any)=>{
     const transporter=nodemailer.createTransport({
         // service:'Gmail',
         host: 'smtp.gmail.com',
-        port: 587, // Changed frocm 465 to 587
+        port: 587, // Changed from 465 to 587
         secure: false, // Changed from true to false for TLS
         auth: {
             user: config.email_user,
