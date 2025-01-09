@@ -69,7 +69,7 @@ export const signup=async ({email,password}:body)=>{
       try{
         await sendEmail({
             email:user.Email,
-            subject:"OTP for Campus-Chats email verfication",
+            subject:"OTP for Campus-Chats Email verfication",
             html:`<html>
                 <body> 
                 <h3> Welcome to Campus Chats!!</h3> 
